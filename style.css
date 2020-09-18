@@ -1,0 +1,51 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0 35%;
+    margin-top: 2%;
+    color: white;
+    font-size: 2rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(153,103,186,1) 41.2%, rgba(0,113,227,1) 90% );
+}
+
+#resultado{
+    margin-top: 55px;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#enviarNumero{
+    font-size: 25px;
+    padding: 15px;
+    background-color: thistle;
+   cursor: pointer;
+   border: none;
+   font-weight: 800;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#numero{
+    font-size: 2rem;
+    padding-left: 9%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: none;
+    text-align: center;
+    
+}
+
+button{
+    font-size: 2rem;
+}
